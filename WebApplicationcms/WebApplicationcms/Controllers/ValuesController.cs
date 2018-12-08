@@ -14,7 +14,7 @@ namespace WebApplicationcms.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value11", "olagot" };
+            return new string[] { "value11", "olagotsend" };
         }
 
         // GET api/values/5
